@@ -3,9 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "main": "./lib/Connection",
-  "scripts": {
-    "start": "node app.js"
-  },
   "dependencies": {
     "streamsearch": "0.1.2",
     "asn1": "0.1.11"
