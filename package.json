@@ -1,14 +1,13 @@
-{ "name": "ssh2",
-  "version": "0.2.22",
-  "author": "Brian White <mscdex@mscdex.net>",
-  "description": "An SSH2 client module written in pure JavaScript for node.js",
+{
+  "name": "ssh2",
+  "version": "0.0.1",
+  "private": true,
   "main": "./lib/Connection",
-  "engines": { "node": ">=0.8.7" },
+  "scripts": {
+    "start": "node app.js"
+  },
   "dependencies": {
     "streamsearch": "0.1.2",
     "asn1": "0.1.11"
-  },
-  "keywords": [ "ssh", "ssh2", "sftp", "secure", "shell", "exec", "remote", "client" ],
-  "licenses": [ { "type": "MIT", "url": "http://github.com/ryanshawty/ssh2/raw/master/LICENSE" } ],
-  "repository" : { "type": "git", "url": "http://github.com/ryanshawty/ssh2.git" }
+  }
 }
